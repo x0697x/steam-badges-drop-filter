@@ -4,7 +4,7 @@ Userscript for Violentmonkey/Tampermonkey that adds a filter to Steam's badges p
 
 Install link:
 
-https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js
+https://github.com/x0697x/steam-badges-drop-filter/raw/refs/heads/main/steam-badges-drop-filter.user.js
 
 [![Install](https://i.imgur.com/vkcCFS1.png)](https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js)
 
