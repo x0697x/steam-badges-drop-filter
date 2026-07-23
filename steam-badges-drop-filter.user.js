@@ -36,12 +36,12 @@
         if (!rows.length) return false;
         const bar = document.createElement('div');
         bar.style.cssText = 'margin:10px 0; text-align:right; font-size:14px;';
-        bar.innerHTML = 
+        bar.innerHTML = `
             <label style="cursor:pointer; user-select:none;">
                 <input type="checkbox" id="drop-filter-toggle" autocomplete="off" style="vertical-align:middle;">
                 Only show games with drops remaining
             </label>
-        ;
+    `;
         rows[0].parentElement.insertBefore(bar, rows[0]);
         const checkbox = bar.querySelector('#drop-filter-toggle');
         checkbox.addEventListener('change', () => {
