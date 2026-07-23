@@ -4,6 +4,7 @@
 // @version      1.4.1
 // @description  Adds a toggle on the Steam badges page to show only games with card drops remaining, checked across every page, independent of interface language, styled with Steam's own button component
 // @author       x0697x
+// @license      MIT
 // @match        https://steamcommunity.com/id/*/badges*
 // @match        https://steamcommunity.com/profiles/*/badges*
 // @grant        none
@@ -25,6 +26,12 @@
         return [...root.querySelectorAll('.badge_row')];
     }
 
+    // Language-independent detection: Steam only renders the "Play Game"
+    // control inside a badge's stats block when that badge still has card
+    // drops remaining. That's a CSS class name, not translated text, so it
+    // holds regardless of interface language. Cross-checked against a
+    // long-standing community script that filters on the same element
+    // (greasyfork.org/scripts/18001-steam-badge-remaining-card-drops).
     function hasDropsRemaining(row) {
         if (row.querySelector('.badge_title_playgame, .badge_title_stats_playgame')) {
             return true;
@@ -69,6 +76,10 @@
         const rows = getRows();
         if (!rows.length) return false;
 
+        // Bar layout only; the toggle itself reuses Steam's own button
+        // component (btnv6_blue_hoverfade) instead of a bare checkbox, so
+        // its gradient, hover state, and font come from Steam's own
+        // stylesheet rather than being reproduced here.
         const bar = document.createElement('div');
         bar.style.cssText = 'display:flex; align-items:center; justify-content:flex-end; gap:10px; margin:10px 0;';
 
@@ -76,6 +87,10 @@
         status.id = 'drop-filter-status';
         status.style.cssText = 'color:#8f98a0; font-size:12px;';
 
+        // Structure matches how Steam's own badges-page script builds this
+        // exact button (confirmed against greasyfork.org/scripts/18001):
+        // a div carrying btnv6_blue_hoverfade + a size class, wrapping a
+        // span for the label.
         const toggle = document.createElement('div');
         toggle.id = 'drop-filter-toggle';
         toggle.className = 'btnv6_blue_hoverfade btn_small';
@@ -100,6 +115,10 @@
             toggle.style.opacity = isBusy ? '0.6' : '';
         }
 
+        // Steam's own button classes don't include a distinct "pressed"
+        // look, so the on-state is layered on top with an inset border
+        // rather than guessed colors that could drift from the current
+        // theme.
         function setActiveStyle(isActive) {
             toggle.style.boxShadow = isActive ? 'inset 0 0 0 1px #67c1f1' : '';
         }
