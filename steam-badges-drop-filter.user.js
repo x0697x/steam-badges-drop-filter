@@ -8,8 +8,8 @@
 // @match        https://steamcommunity.com/profiles/*/badges*
 // @grant        none
 // @icon         data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiI+CjxyZWN0IHg9IjMiIHk9IjciIHdpZHRoPSIxNyIgaGVpZ2h0PSIyMyIgcng9IjMiIGZpbGw9IiMxYjI4MzgiIHN0cm9rZT0iIzY2YzBmNCIgc3Ryb2tlLXdpZHRoPSIxLjUiIHRyYW5zZm9ybT0icm90YXRlKC0xMCAxMS41IDE4LjUpIi8+CjxyZWN0IHg9IjExIiB5PSIzIiB3aWR0aD0iMTciIGhlaWdodD0iMjMiIHJ4PSIzIiBmaWxsPSIjMmE0NzVlIiBzdHJva2U9IiM2NmMwZjQiIHN0cm9rZS13aWR0aD0iMS41Ii8+CjxjaXJjbGUgY3g9IjE5LjUiIGN5PSIxNC41IiByPSIzIiBmaWxsPSIjNjZjMGY0Ii8+Cjwvc3ZnPgo=
-// @updateURL    https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js
-// @downloadURL  https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js
+// @updateURL    https://github.com/x0697x/steam-badges-drop-filter/raw/refs/heads/main/steam-badges-drop-filter.user.js
+// @downloadURL  https://github.com/x0697x/steam-badges-drop-filter/raw/refs/heads/main/steam-badges-drop-filter.user.js
 // @homepageURL  https://github.com/x0697x/steam-badges-drop-filter
 // ==/UserScript==
 
