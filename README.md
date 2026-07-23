@@ -1,4 +1,8 @@
-# steam-badges-drop-filter
+<p align="center">
+  <img src="https://i.ibb.co/Q3h2hsrf/image.png" alt="Steam Badges - Filter Drops Remaining" width="150">
+</p>
+
+# Steam Badges - Filter Drops Remaining
 Userscript for Violentmonkey/Tampermonkey that adds a filter to Steam's badges page to hide games with no card drops left.
 
 [![Install](https://i.ibb.co/Jw3ytCVg/WJhjr1-O-Imgur.png)](https://i.ibb.co/Jw3ytCVg/WJhjr1-O-Imgur.png)
