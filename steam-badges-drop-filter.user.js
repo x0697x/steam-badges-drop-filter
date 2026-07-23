@@ -23,10 +23,6 @@
         return [...root.querySelectorAll('.badge_row')];
     }
 
-    // A row only counts as "has drops" if it explicitly states a positive
-    // number. A maxed (Level 5) badge shows no drops line at all, and an
-    // exhausted one says "No card drops remaining" - both should be hidden,
-    // so we check for a positive match rather than the absence of "No...".
     function hasDropsRemaining(row) {
         const match = row.textContent.match(DROPS_REGEX);
         return match ? parseInt(match[1], 10) > 0 : false;
