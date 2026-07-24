@@ -3,14 +3,49 @@
 </p>
 
 # Steam Badges - Filter Drops Remaining
-Userscript for Violentmonkey/Tampermonkey that adds a filter to Steam's badges page to hide games with no card drops left.
 
-<img src="https://i.ibb.co/Jw3ytCVg/WJhjr1-O-Imgur.png">
+Userscript for **Violentmonkey** and **Tampermonkey** that adds a filter to Steam's badges page to hide games with no card drops remaining.
 
-Install link:
+<img src="https://i.ibb.co/1JJYW5hg/image.png" alt="Steam Badges Filter Screenshot">
 
-`https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js`
+## Install
 
-<img src="https://i.ibb.co/7tBnYGh3/vkc-CFS1-Imgur.png">
+### Violentmonkey
 
-Click "Install from URL"
+Install the extension from the Chrome Web Store:
+
+https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
+
+1. Open the **Violentmonkey Dashboard**.
+2. Click **Add**.
+
+<img src="https://i.ibb.co/7tBnYGh3/vkc-CFS1-Imgur.png" alt="Violentmonkey Add Button">
+
+3. Click **Install from URL**.
+4. Paste the following URL:
+
+```text
+https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js
+```
+
+<img src="https://i.ibb.co/d0QCfrs6/image.png" alt="Violentmonkey Install">
+
+5. Click **Install**.
+
+### Tampermonkey
+
+Install the extension from the Chrome Web Store:
+
+https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
+
+Then open the Greasy Fork page:
+
+https://greasyfork.org/en/scripts/588294-steam-badges-filter-drops-remaining
+
+1. Click **Install this script**.
+
+<img src="https://i.ibb.co/TMnNbRzL/image.png" alt="Greasy Fork Install Button">
+
+2. Click **Install**.
+
+<img src="https://i.ibb.co/jkcX0Xqx/image.png" alt="Tampermonkey Install">
