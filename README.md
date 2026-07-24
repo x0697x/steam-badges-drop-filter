@@ -17,7 +17,7 @@ Install the extension from the Chrome Web Store:
 https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejagnlnfdag
 
 1. Open the **Violentmonkey Dashboard**.
-2. Click **Add**.
+2. Click **+**.
 
 <img src="https://i.ibb.co/7tBnYGh3/vkc-CFS1-Imgur.png" alt="Violentmonkey Add Button">
 
@@ -27,10 +27,9 @@ https://chromewebstore.google.com/detail/violentmonkey/jinjaccalgkegednnccohejag
 ```text
 https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-badges-drop-filter.user.js
 ```
+5. Click **Install**.
 
 <img src="https://i.ibb.co/d0QCfrs6/image.png" alt="Violentmonkey Install">
-
-5. Click **Install**.
 
 ### Tampermonkey
 
