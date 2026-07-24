@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         [BETA] Steam Badges - Filter Drops Remaining
+// @name         Steam Badges - Filter Drops Remaining
 // @namespace    local.steam-badges-drop-filter
 // @version      1.5.0
 // @description  Adds a toggle on the Steam badges page to show only games with card drops remaining, checked across every page, independent of interface language, styled with Steam's own button component
