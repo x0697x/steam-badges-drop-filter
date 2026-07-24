@@ -31,6 +31,11 @@ https://raw.githubusercontent.com/x0697x/steam-badges-drop-filter/main/steam-bad
 
 <img src="https://i.ibb.co/d0QCfrs6/image.png" alt="Violentmonkey Install">
 
+6. Enable **Allow User Scripts** in extension **Details**
+
+<img src="https://i.ibb.co/276vh13d/Screenshot-2026-07-24-094639.png" alt="Details">
+<img src="https://i.ibb.co/vvXhBPwC/Screenshot-2026-07-24-094645.png" alt="Allow User Scripts">
+
 ### Tampermonkey
 
 Install the extension from the Chrome Web Store:
@@ -48,3 +53,8 @@ https://greasyfork.org/en/scripts/588294-steam-badges-filter-drops-remaining
 2. Click **Install**.
 
 <img src="https://i.ibb.co/jkcX0Xqx/image.png" alt="Tampermonkey Install">
+
+3. Enable **Allow User Scripts** in extension **Details**
+
+<img src="https://i.ibb.co/276vh13d/Screenshot-2026-07-24-094639.png" alt="Details">
+<img src="https://i.ibb.co/vvXhBPwC/Screenshot-2026-07-24-094645.png" alt="Allow User Scripts">
